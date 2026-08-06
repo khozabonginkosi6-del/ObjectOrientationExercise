@@ -1,10 +1,18 @@
-﻿namespace ObjectOrientationExercises
+﻿using ObjectOrientationClassExercise.Polymorphism;
+
+namespace ObjectOrientationExercises
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //EncapsulationSample.Run();
+
+            //AbstractionSample.Run();
+
+            //InheritanceSample.Run();
+
+            PolymorphismSample.Run();
         }
     }
 }
