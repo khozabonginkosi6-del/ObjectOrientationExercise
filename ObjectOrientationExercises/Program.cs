@@ -1,12 +1,10 @@
 ﻿using ObjectOrientationClassExercise.Polymorphism;
-<<<<<<< HEAD
 using ObjectOrientationExercises.Interfaces;
 using ObjectOrientationClassExercise.Inheritance;
 using ObjectOrientationExercises.Encapsulation;
 using System.Numerics;
 
-=======
->>>>>>> 237a602fe92fa7ffb29db665cce267ea4e87217d
+
 
 namespace ObjectOrientationExercises
 {
@@ -21,12 +19,11 @@ namespace ObjectOrientationExercises
             //InheritanceSample.Run();
 
             PolymorphismSample.Run();
-<<<<<<< HEAD
+
 
             InterfacesSample sample = new InterfacesSample();
             sample.Run();
-=======
->>>>>>> 237a602fe92fa7ffb29db665cce267ea4e87217d
+
         }
     }
 }

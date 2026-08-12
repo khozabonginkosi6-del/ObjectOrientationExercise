@@ -10,23 +10,23 @@ namespace ObjectOrientationClassExercise.Inheritance
         {
             List<Person> people = new List<Person>();
 
-            Person person = new Person("Alaska", "Johhanson", Gender.Male, 24, Race.White, true);
+            Person person = new Person("Alaska", "Johhanson", Gender.male, 24, Race.White, true);
 
             people.Add(person);
 
-            Student student = new Student("5101917", "8", "Software Development", "CTU", 5, "Bobby", "Jones", Gender.Male, 24, Race.African, false);
+            Student student = new Student("5101917", "8", "Software Development", "CTU", 5, "Bobby", "Jones", Gender.male, 24, Race.African, false);
 
             people.Add(student);
 
-            Employee employee = new Employee("5202927", 56000, "Programmer", "Bitcoin", "A1002", EmployementType.FullTime, "Nqobile", "Musk", Gender.Male, 45, Race.Asian, true);
+            Employee employee = new Employee("5202927", 56000, "Programmer", "Bitcoin", "A1002", EmployementType.FullTime, "Nqobile", "Musk", Gender.male, 45, Race.Asian, true);
 
             people.Add(employee);
 
-            Pilot pilot = new Pilot(true, 1200, FlyingType.Private, "21334", 78000, "Pilot", "FlySAFair", "231w", EmployementType.PartTime, "Simon", "Musk", Gender.Male, 35, Race.Indian, false);
+            Pilot pilot = new Pilot(true, 1200, FlyingType.Private, "21334", 78000, "Pilot", "FlySAFair", "231w", EmployementType.PartTime, "Simon", "Musk", Gender.male, 35, Race.Indian, false);
 
             people.Add(pilot);
 
-            person = new Student("6576576", "7", "Computer Science", "UCT", 4, "Aron", "Nivan", Gender.Female, 24, Race.White, true);
+            person = new Student("6576576", "7", "Computer Science", "UCT", 4, "Aron", "Nivan", Gender.female, 24, Race.White, true);
 
             people.Add(person);
 
